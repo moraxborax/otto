@@ -1,0 +1,19 @@
+[project]
+name = "otto"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.135.1",
+    "numba>=0.64.0",
+    "pedalboard>=0.9.22",
+    "sounddevice>=0.5.5",
+    "uvicorn>=0.42.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.7",
+    "ty>=0.0.24",
+]
